@@ -1,0 +1,29 @@
+body {
+	background-color: #f0f1f4;
+}
+
+.in{
+	border: 2px double;
+	background-color: #fff;
+	display: block;
+	border-width: 5px;
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+
+.btm{
+	cursor: pointer;
+}
+
+.textarea{
+	flex: 1;
+	margin-bottom: 2px;
+}
+
+.text{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
