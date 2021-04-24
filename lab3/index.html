@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src = "script.js"></script>
+	<title>Лабораторная работа №3</title>
+</head>
+<body>
+	Проверка на функциональную соответсвенность<br>
+	<form onsubmit="check();return false;" style = "margin-top: 30px;">
+		Множество А: 
+		<input type="text" id = "first" value="1 2 3"><br>
+		Множество B: 
+		<input type="text" id = "second" value="a b c"><br>
+		Отношение R: 
+		<input type="text" id = "ratio" value="1,a 2,b 3,c"><br>
+		<input type ="submit" value = "Проверить" style = "margin-top: 30px;">
+	</form><br>
+	<span id = "result"></span>
+</body>
+</html>
